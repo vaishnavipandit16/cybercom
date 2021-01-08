@@ -1,0 +1,25 @@
+-----PRIMITIVE JAVASCRIPT DATATYPES-----------
+
+1)Number : Floating point numbers, for decimals and integers.
+
+2)String : Sequence of characters, used for text.
+
+3)Boolean : Logical datatype that can only be true or false.
+
+4)Undefined : Datatype of a variable that does not have a value yet.
+
+5)Null : Also means 'non-existent'.
+
+-->JavaScript have dynamic typing : datatypes are automatically assigned to variables.
+-->Variable's name cannot start with numbers or symbols except $ and _.
+-->We cannot use reserve JavaScript keywords as variable name.
+-->There are two types of comments in JavaScript:
+    1. Single-line comment - we use // for single line comment.
+    2. Multi-line comments - we use /* */ for multiple line comments.
+
+----------NOUN, ADJECTIVES AND VERBS----------
+HTML - It is for content.It is also called nouns.
+
+CSS - It is for presentation.It is also called Adjectives.
+
+JS - It is for dynamic effects and programming.It is also called verbs.
