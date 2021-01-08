@@ -1,0 +1,36 @@
+.images {
+  margin-top: 200px;
+}
+.column {
+  float: left;
+  width: 18%;
+}
+
+img {
+  height: 315px;
+  width: 215px;
+}
+
+.img1 {
+  margin-left: 280px;
+}
+.img2 {
+  margin-left: 30px;
+}
+.f1 {
+  margin-left: 350px;
+}
+.f2 {
+  margin-left: 150px;
+}
+.f3 {
+  margin-left: 180px;
+}
+.f4 {
+  margin-left: 150px;
+}
+.para {
+  margin-left: 270px;
+  margin-right: 270px;
+  margin-top: 50px;
+}
