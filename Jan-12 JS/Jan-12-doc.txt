@@ -1,0 +1,59 @@
+--------------JAVSCRIPT ENGINE------------------
+
+-->It is a program that executes a JavaScript program.
+-->There many engines like google's engine is v8.
+-->Our code is passed by the parser. Parser reads our code 
+   line by line and checks the syntax whether it is correct or not.
+-->So the parser knows the JavaScript code and how it has to be return in
+   order to correct, to be valid.
+-->So if you made any mistakes in the code it throws and erroe and stop the execution.
+-->If everything is correct then the parser produces the data structure known as the
+   Abstract Syntax Tree and then it is translated to the machine code and now the code in no longer
+   JavaScript code.
+-->Now the machine code runs and does its work.
+
+
+------------------EXECUTION CONTEXTS---------------------
+
+-->All JavaScript code needs to run in an environment.This Environments are called Execution context.
+-->Execution context is a box ,a conatiner or a wrapper ehich stores variables and in which a piece of
+   oue code is evaluated and executed.
+-->The default execution context is the global context.
+-->In the global execution context runs all the code which are not in the function are executed.
+-->So the global execution context is for all the variables and functions which are not inside the functions.
+-->We can also consider execution context as an object.So the global execution context is associated with the global object.
+   In case of browser, window is object.
+-->Properties are just variables attached to the object.
+-->for the execution of the code which are in the function, when they are called then they are execute in the new execution 
+   context and it will be the active context and that context is put on the top of the execution stack.
+-->When the function gets full executed then that execution context is removed.
+
+-->There are two phases in which execution is done:
+   (1)Creation phase
+	a)creation of the variable object
+
+		->The argument object is created which contains all the arguments of the function.
+		->Code is scanned for function declaration and for each function,a property is created in the variable object,pointing to the function.
+		->Code is scanned for variable declaration and for each variable,a property is created in the variable object,and set to undefined.
+		->Functions and variables are hoisted means they are available before the actual execition starts.
+		->The difference between function and variable is that functions are already defined before the execution phase starts,It is only for function declaration ,not for function expression . and variables are set up to undefined.
+		  and it will be defined in the excetion phase.
+
+	b)creation of the scope chain
+
+		->To create a new scope, we have to write a new function.
+		->Lexical scoping means a function that is lexically within another function gets access to the scope of the outer/parent function.
+		  It is also allow the to access the variables and functions of the parent function.
+		->Execution stack and scope chain are two different things.
+
+	c)Determine value if the 'this' variable
+
+		->Regular Function call: Here this kieyword points at the global object(window object in the browser).
+		->Method call : Here this keyword refers to the object that is calling the method.
+   (2)Execution phase
+	The code of the function that generated the current execution context is run line by line.
+
+
+---------------------OBJECTS AND PROPERTIES-----------------
+
+-->The difference between objects and arrays is that in array order matters a lot and in objects order doen't matter. 
