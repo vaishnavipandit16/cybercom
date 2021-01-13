@@ -1,0 +1,18 @@
+---------------DOCUMENT OBJECT MODEL---------------
+
+-->DOM is a structured representation of an HTML document.
+-->The DOM is used to connect webpages to scripts like JavaScript.
+-->Each tag of the HTML is an object in the DOM that we can access and interact with.
+-->HTML webpage content is stored in the DOM which can be then be accessed and manipulated
+   by the Javascript.
+
+------------HTML----------------------
+
+-->HTML elements can also have attributes. Most used one attribute is a claa attribute.
+-->Value of 'id' attribute have to be unique where value of 'class' attribute can be used again and again.
+-->It is always divide into two parts: the header and the body.
+
+---------------CSS------------------
+
+-->In CSS we simply write the rules to style our webpage.
+-->There are many selectors. Like class selector , type selector and universal selector.
