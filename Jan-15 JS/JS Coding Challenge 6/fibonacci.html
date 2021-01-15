@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>fibonacci series</title>
+
+</head>
+
+<body>
+    <h2>
+        Please Enter any Number
+    </h2>
+    <input id="number" value="" type="number">
+    <button type="button" onclick="fib()">Submit </button>
+    <br />
+    <div id='results'></div>
+</body>
+<script>
+    function fib() {
+        let firstNumber = 0,
+            secondNumber = 1,
+            final;
+
+        let number = document.getElementById("number") ? document.getElementById("number").value : 0;
+        if (number > 0) {
+            document.getElementById("results").innerHTML += "Results : " + firstNumber + " " + secondNumber;
+            for (let i = 3; i <= number; i++) {
+                final = firstNumber + secondNumber;
+                firstNumber = secondNumber;
+                secondNumber = final;
+                document.getElementById("results").innerHTML += final;
+            }
+        } else {
+            document.getElementById("results").innerHTML = 'Invalid Input'
+        }
+
+
+    }
+
+</script>
+
+</html>
