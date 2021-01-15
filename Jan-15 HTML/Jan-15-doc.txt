@@ -1,0 +1,41 @@
+--------------------OBJECT----------------------
+
+-->In JavaScript, everything is an object. But not 100% are object.
+-->Numbers, Strings, Booleans, Undefined, Null are primitives and everything else like 
+   Arrays, functions, Objects, Dates, Wrapper for numbers,Strings and Booleans are objects.
+-->The constructor in JavaScript is act like a blueprint and is used to create instances which are 
+   also objects.
+-->JavaScript is a prototype based language which means inheritance is used by something called prototypes.
+-->Each and every JavaScript object has a protoptype property which makes inheritance possible in JavaScript.
+-->Null ha no prototype and this is the final chain in prototype chain.
+
+-->Every JavaScript Object has a prototype property, which makes inheritance possible in JavaScript.
+
+-->The prototype property of an object is where we put methods and properties that we want other objects
+   to inherit.
+
+-->The constructor's prototype property is NOT the prototype of the constructor itself, it's the prototype
+   of all instances that are created through it.
+
+-->When a certain method/property is called, the search starts in the object itself, and if it cannot be found 
+   the search moves on to the object's prototype. This continues until the method is found:prototype chain.
+
+
+
+--------------------------CONSTRUCTOR-----------------------
+
+-->With the new keyword empty object is created.
+-->Console is very useful to visualize the prototype chain.
+-->We can create an object using Object.create().
+
+
+------------------------FUNCTION-----------------------------
+
+-->Functions are also objects.We can do the same thing with functions which we are doing with objectes.
+-->A function is an instance of the Object type.
+-->A function behaves like any other object.
+-->We can store functions in a variable.
+-->We can pass a function as an argument to another function.
+-->We can return a function from a function.
+-->When we pass another function  as an argument in the function then that function which is passes to the 
+   argument is called the callback function.

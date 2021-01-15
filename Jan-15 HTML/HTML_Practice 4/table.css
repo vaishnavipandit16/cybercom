@@ -1,0 +1,12 @@
+.margins {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.align-center {
+  text-align: center;
+}
+.img-size {
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+}
