@@ -1,0 +1,49 @@
+.margins {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.top-margin {
+  margin-top: 100px;
+  text-align: center;
+}
+.header-img {
+  color: white;
+  background-image: url("images/building.jpg");
+  height: 90px;
+  width: 500px;
+}
+.font-margin {
+  text-align: center;
+}
+.center-form {
+  text-align: center;
+}
+.form-margin {
+  margin-top: 30px;
+}
+.item-margin {
+  margin-top: 10px;
+}
+.btn1 {
+  background-color: darkmagenta;
+  font-size: bold;
+  border-radius: 12px;
+  box-shadow: 0 9px 17px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.2);
+}
+.input-icons i {
+  position: absolute;
+}
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+  color: gray;
+}
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}

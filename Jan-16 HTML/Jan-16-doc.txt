@@ -1,0 +1,31 @@
+-----------------------FUNCTION RETURNING A FUNCTION--------------------
+
+-->Functions are always first class functions in JavaScript because they are effectively objects.
+-->In JavaScript, what inside the () is not a statement.
+
+
+----------------------IMMEDIATELY INVIKED FUNCTION VARIABLE-----------------------------
+
+-->In IIFE, we create a scope that is hidden from the outside scope where we can safely put variables.
+-->With this, we can give privacy and don't interfear with another varibles in global execution context.
+
+
+------------------------------CLOSURES--------------------------------------
+
+-->AN inner function has always access to the variable and parameters of its outer
+   function ,even after the out function has returned.
+-->We don't create closures mannually.It is built into JavaScript.
+
+----------------------------BIND,CALL,APPLY------------------------------
+
+-->Call method allwes us to set this variable in the first argument.
+-->Bind method doesn't immediately call the function but instead it generate copy of a function so we can store it somewhere.
+-->Bind allows us to preset some arguments.
+-->Apply method takes two arguments first is this and second is array.
+
+
+-------------------------------let,const,var--------------------------------
+
+-->variable declared with var in ES5 are fuctional scoped.
+-->variables declared eith let and const are block scoped.
+
