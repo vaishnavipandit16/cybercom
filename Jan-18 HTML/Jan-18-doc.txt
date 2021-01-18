@@ -1,0 +1,11 @@
+------------------------Arrow Functions------------------------
+
+-->Arrow functions do not have the this kryword.
+-->They simply use the this keyword of the function they are returning.So they have a lexical this keyword.
+-->Only in a method call, this keyword actually points to that object.But in a regular function call this keyword points to the global object.
+
+
+------------------------Destructuring--------------------------
+
+-->Destructuring gives us a very convienient way to extract data from a data structure like an object or an array.
+-->We can use for of in ES6.

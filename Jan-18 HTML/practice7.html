@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practice7.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="Success.html">
+        <section class="margins">
+            <fieldset>
+                <legend>Your address</legend>
+                <div>
+                    <label class="top-margin">First name</label>
+                    <input type="text" class="left-margin"><br>
+                </div>
+                <div class="top-margin">
+                    <label>Last name</label>
+                    <input type="text" class="left-margin"><br>
+                </div>
+                <div class="top-margin">
+                    <label>Street</label>
+                    <input type="text" class="left-margin-street"><br>
+                </div>
+                <div class="top-margin">
+                    <label>City</label>
+                    <input type="text" class="left-margin-city"><br>
+                </div>
+            </fieldset>
+        </section>
+        <section class="margins-sec2">
+            <fieldset>
+                <legend>Additional details</legend>
+                <div>
+                    <label class="top-margin">Biography</label>
+                    <textarea cols="20" rows="2" class="left-margin"></textarea><br>
+                </div>
+                <div class="top-margin">
+                    <label>Image</label>
+                    <input type="file" class="left-margin-street"><br>
+                </div>
+                <div class="top-margin">
+                    <label>Age Group</label>
+                    <input type="number" placeholder="0 to 9 Years" class="left-margin"><br>
+                </div>
+            </fieldset>
+        </section>
+        <section class="margins-sec2">
+            <fieldset>
+                <legend>Interests</legend>
+                <div>
+                    <label class="top-margin">Hobbies</label>
+                    <textarea
+                        class="left-margin-hobbies">Playing soccer Dancing Gardening Watching movies</textarea><br>
+                </div>
+                <div class="top-margin">
+                    <label class="top-margin">Favourite car?</label>
+                    <select class="left-margin-car">
+                        <option value="1">Volvo</option>
+                    </select>
+                </div>
+                <div class="top-margin">
+                    <label class="top-margin">Favourite public transport?</label>
+                    <textarea
+                        class="left-margin-transport">Ground &nbsp;&nbsp;Train &nbsp;&nbsp;Bus Water</textarea><br>
+                </div>
+            </fieldset>
+        </section>
+        <section class="button-margins">
+            <input type="submit" value="Submit">
+            <button type="button">Reset</button>
+        </section>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+.margins {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 70px;
+}
+.margins-sec2 {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+.top-margin {
+  margin-top: 10px;
+}
+.left-margin {
+  margin-left: 200px;
+}
+.left-margin-street {
+  margin-left: 230px;
+}
+.left-margin-city {
+  margin-left: 240px;
+}
+.left-margin-car {
+  margin-left: 180px;
+}
+.left-margin-transport {
+  margin-left: 100px;
+  height: 65px;
+  width: 60px;
+  resize: none;
+}
+.button-margins {
+  margin-top: 50px;
+  margin-left: 250px;
+}
+.left-margin-hobbies {
+  margin-left: 220px;
+  height: 65px;
+  width: 110px;
+  resize: none;
+}
