@@ -1,0 +1,77 @@
+.form-height {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 70px;
+  width: 500px;
+  border: 1px solid black;
+  background-color: #e5e4e2;
+}
+.header-margins {
+  margin-left: 20px;
+}
+.flabel-margin {
+  margin-left: 60px;
+}
+.finput-margin {
+  margin-left: 20px;
+}
+.Dblabel-margin {
+  margin-left: 45px;
+}
+.glabel-margin {
+  margin-left: 85px;
+}
+.margins {
+  margin-top: 50px;
+}
+.elabel-margin {
+  margin-left: 90px;
+}
+.note-margin {
+  margin-left: 160px;
+}
+.relabel-margin {
+  margin-left: 35px;
+}
+.plabel-margin {
+  margin-left: 68px;
+}
+.rplabel-margin {
+  margin-left: 10px;
+}
+.sqlabel-margin {
+  margin-left: 13px;
+}
+.salabel-margin {
+  margin-left: 20px;
+}
+.alabel-margin {
+  margin-left: 70px;
+}
+.clabel-margin {
+  margin-left: 95px;
+}
+.zlabel-margin {
+  margin-left: 60px;
+}
+.phlabel-margin {
+  margin-left: 80px;
+}
+
+.submit-btn {
+  margin-left: 200px;
+  font-weight: bold;
+
+  background-color: gray;
+}
+.reset-btn {
+  font-weight: bold;
+  background-color: gray;
+}
+.input-field {
+  width: 200px;
+}
+.zinput-margin {
+  margin-left: 20px;
+  width: 50px;
+}

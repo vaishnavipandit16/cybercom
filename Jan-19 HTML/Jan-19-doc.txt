@@ -1,0 +1,16 @@
+----------------------------------CLASSES------------------------------------
+
+-->Classes simply make it easier to implement inheritance and to create objects based on blueprints.
+-->In ES6 creating a class and reading a class is easier.We have to make a constructor of a class using constructor keyword.
+-->We can add static methods to the class. and static methods are the methods that are simple attached to the class but not 
+   inherited by the class instances.
+-->Class definition are not hoisted.
+-->We can only add methods to classes but not properties.
+
+
+--------------------------------INHERITANCE---------------------------------
+
+-->In ES5, we can inherite the another class using parentClass.call().
+-->In ES6, we can inherite the another class using super();
+-->In ES5, if we want to inherite the protoptype of parent class then we have to use Object.create().
+-->In ES6, we can inherite all the properties and prototypes of parent class using super() in the constructor of child class.
