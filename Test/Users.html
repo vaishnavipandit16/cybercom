@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Users.js"></script>
+    <title>Users</title>
+</head>
+
+<body onload="userTable()">
+    <nav>
+        <p>Hello</p>
+        <a href="Dashboard.html">Dashboard</a>
+        <a href="Users.html">Users</a>
+        <a href="UserSession.html">Login Session</a>
+        <a href="Login.html">Logout</a>
+    </nav>
+    <section>
+        <label id="userLabel">Add User</label>
+        <form>
+            <input type="text" id="fname" name="fname" placeholder="Name">
+            <input type="email" id="mail" name="mail" placeholder="Email">
+            <input type="password" id="pass" name="pass" placeholder="Password">
+            <input type="Date" id="bdate" name="bdate" placeholder="BirthDate">
+            <input type="button" id="addUser" name="addUser" Value="Add User" onclick="userAdd()">
+        </form>
+    </section>
+    <header>
+        <h3>User Table</h3>
+    </header>
+    <section>
+        <table border="1">
+            <thead>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>BirthDate</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </thead>
+            <tbody id="body"></tbody>
+        </table>
+    </section>
+</body>
+
+</html>
