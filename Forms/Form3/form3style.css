@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+.yellow-color {
+  background-color: #de8704;
+  color: yellow;
+}
+.blue-color {
+  background-color: #222536;
+}
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+.btn-size {
+  height: 30px;
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+.submit-color {
+  background-color: #62af5e;
+  color: white;
+  border: none;
+}
+.cancel-color {
+  background-color: orangered;
+  color: white;
+}
+.over {
+  height: 1000px;
+  width: 350px;
+}
+
+table {
+  width: 100%;
+}
+
+.label-color {
+  color: yellow;
+}
+
+.size {
+  height: 40px;
+}
+
+.margin-left-head {
+  margin-left: 10px;
+}
+
+.margins {
+  display: flex;
+  align-items: center;
+}
