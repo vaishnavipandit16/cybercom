@@ -1,0 +1,27 @@
+thead {
+  background-color: khaki;
+  color: red;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+tbody,
+tfoot {
+  background-color: darkturquoise;
+}
+
+input,
+textarea,
+select {
+  background-color: mediumspringgreen;
+}
+.align-center {
+  text-align: center;
+}
+
+.name-password {
+  width: 350px;
+}
+.left-margin {
+  margin-left: 5px;
+}
