@@ -1,0 +1,23 @@
+.main {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  color: white !important;
+  background-color: #2a80b9 !important;
+}
+.navi {
+  background-color: #2a80b9 !important;
+  color: white !important;
+}
+.nav-body > li > a {
+  color: white !important;
+}
+.add {
+  margin-bottom: 20px;
+}
